@@ -113,7 +113,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Tougaloo College",
-      logo: require("./assets/images/tougaloo_logo.png"),
+      logo: require("./assets/images/tc_logo.png"),
       subHeader: "Bachelor of Science: Computer Science and Mathematics, Minor: Data Science",
       duration: "Expected May 2026",
       desc: "Presidential Academic Scholar",
@@ -164,7 +164,7 @@ const workExperiences = {
     {
       role: "Undergraduate Research Fellow",
       company: "Tougaloo College",
-      companylogo: require("./assets/images/tougaloo_logo.png"),
+      companylogo: require("./assets/images/tc_logo.png"),
       date: "Aug 2023 – Present",
       desc: "Using machine learning to analyze biomedical data on cloud-based platforms",
       descBullets: [
@@ -223,7 +223,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
