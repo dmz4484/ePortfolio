@@ -117,8 +117,7 @@ const educationInfo = {
     {
       schoolName: "Tougaloo College",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Bachelor of Science: Computer Science and Mathematics
-        Minor: Data Science",
+      subHeader: "Bachelor of Science: Computer Science and Mathematics, Minor: Data Science",
       duration: "Expected May 2026",
       desc: "Presidential Academic Scholar",
       descBullets: [
