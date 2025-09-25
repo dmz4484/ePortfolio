@@ -16,11 +16,12 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
   username: "Dania Zein",
+  title:"Hi, I'm Dania Zein",
   subTitle: "I'm a senior Math and Computer Science major at the historic Tougaloo College interested in applying data science and machine learning methods to medicine, biology, and public health"
   ,
   resumeLink:
