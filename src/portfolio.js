@@ -91,10 +91,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-square-terminal"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
@@ -117,7 +113,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Tougaloo College",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/tougaloo_logo.png"),
       subHeader: "Bachelor of Science: Computer Science and Mathematics, Minor: Data Science",
       duration: "Expected May 2026",
       desc: "Presidential Academic Scholar",
@@ -158,7 +154,7 @@ const workExperiences = {
         {
       role: "Undergraduate Scholar",
       company: "Jackson Heart Study",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/jhs_logo.jpg"),
       date: "Jan 2023 – Present",
       desc: "Exploring cardiovascular health disparities through public health studies",
       descBullets:[
@@ -168,7 +164,7 @@ const workExperiences = {
     {
       role: "Undergraduate Research Fellow",
       company: "Tougaloo College",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/tougaloo_logo.png"),
       date: "Aug 2023 – Present",
       desc: "Using machine learning to analyze biomedical data on cloud-based platforms",
       descBullets: [
@@ -179,7 +175,7 @@ const workExperiences = {
     {
       role: "AHA SURE Scholar",
       company: "Boston University",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/boston_logo.png"),
       date: "June 2025 – Aug 2025",
       desc: "10-week mentored research project with VA Boston Healthcare System",
       descBullets:[
@@ -190,7 +186,7 @@ const workExperiences = {
     {
       role: "Teaching Assistant",
       company: "Tougaloo College",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/tc_logo.png"),
       date: "Sep 2024 – May 2025",
       desc: "Served as a weekly Calculus I tutor across 2 classes, assisting students with coursework and exam preparation",
       descBullets:[
@@ -200,7 +196,7 @@ const workExperiences = {
     {
       role: "Summer Undergraduate Research Fellow",
       company: "Purdue University",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/purdue_logo.png"),
       date: "May 2024 – Jul 2024",
       desc: "10-week mentored research project with SCALE HBCU Radiation Hardening cohort",
       descBullets:[
@@ -211,7 +207,7 @@ const workExperiences = {
     {
       role: "Computer Science Summer Institute Participant",
       company: "Google",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/google_logo.png"),
       date: "July 2022 – Aug 2022",
       desc: "4-week intensive summer program on HTML/CSS and JavaScript",
       descBullets:[
