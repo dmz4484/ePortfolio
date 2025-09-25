@@ -94,14 +94,14 @@ if (USE_GITHUB_DATA === "true") {
   req.end();
 }
 
-if (MEDIUM_USERNAME && MEDIUM_USERNAME.trim() !== "") {
-  console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
-  const options = {
-    hostname: "api.rss2json.com",
-    path: `/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`,
-    port: 443,
-    method: "GET"
-  };
+// if (MEDIUM_USERNAME && MEDIUM_USERNAME.trim() !== "") {
+//   console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
+//   const options = {
+//     hostname: "api.rss2json.com",
+//     path: `/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`,
+//     port: 443,
+//     method: "GET"
+//   };
 
   const req = https.request(options, res => {
     let mediumData = "";
