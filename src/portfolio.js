@@ -8,7 +8,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // Splash Screen
 
 const splashScreen = {
-  enabled: false, // set false to disable splash screen
+  enabled: true, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Dania Zein",
-  title:"Hi, I'm Dania Zein",
-  subTitle: "I'm a senior Math and Computer Science major at the historic Tougaloo College interested in applying data science and machine learning methods to medicine, biology, and public health"
-  ,
+  title: "Hi, I'm Dania Zein",
+  subTitle:
+    "I'm a senior Math and Computer Science major at the historic Tougaloo College interested in applying data science and machine learning methods to medicine, biology, and public health",
   resumeLink:
     "https://docs.google.com/document/d/1YpqHnRgFHclxMck_vlKIMNVTuzhtJFKy/edit?usp=sharing&ouid=106300112739482199124&rtpof=true&sd=true", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -45,16 +45,10 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "Current Skillset",
   skills: [
-    emoji(
-      "➛ Build C++ programs to implement foundational CS skills "
-    ),
+    emoji("➛ Build C++ programs to implement foundational CS skills "),
     emoji("➛ Learn scRNA-sequencing data analysis in R"),
-    emoji(
-      "➛ Used PyTorch to train Deep Neural Networks"
-    ),
-    emoji(
-      "➛ Present findings at regional and national conferences"
-    )
+    emoji("➛ Used PyTorch to train Deep Neural Networks"),
+    emoji("➛ Present findings at regional and national conferences")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -113,7 +107,8 @@ const educationInfo = {
     {
       schoolName: "Tougaloo College",
       logo: require("./assets/images/tc_logo.png"),
-      subHeader: "Bachelor of Science: Computer Science and Mathematics, Minor: Data Science",
+      subHeader:
+        "Bachelor of Science: Computer Science and Mathematics, Minor: Data Science",
       duration: "Expected May 2026",
       desc: "Presidential Academic Scholar",
       descBullets: [
@@ -150,15 +145,15 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-        {
+    {
       role: "Undergraduate Scholar",
       company: "Jackson Heart Study",
       companylogo: require("./assets/images/jhs_logo.jpg"),
       date: "Jan 2023 – Present",
       desc: "Exploring cardiovascular health disparities through public health studies",
-      descBullets:[
+      descBullets: [
         "Tutored 40+ high schoolers during 2023 (S.L.A.M.) summer program"
-        ]
+      ]
     },
     {
       role: "Undergraduate Research Fellow",
@@ -177,10 +172,10 @@ const workExperiences = {
       companylogo: require("./assets/images/boston_logo.png"),
       date: "June 2025 – Aug 2025",
       desc: "10-week mentored research project with VA Boston Healthcare System",
-      descBullets:[
+      descBullets: [
         "Experience in data analysis, biostatistics, and scientific communication",
         "Presented results at virtual symposium"
-        ]
+      ]
     },
     {
       role: "Teaching Assistant",
@@ -188,9 +183,7 @@ const workExperiences = {
       companylogo: require("./assets/images/tc_logo.png"),
       date: "Sep 2024 – May 2025",
       desc: "Served as a weekly Calculus I tutor across 2 classes, assisting students with coursework and exam preparation",
-      descBullets:[
-        "Graded 6 Calculus I quizzes for a class of 20 students"
-        ]
+      descBullets: ["Graded 6 Calculus I quizzes for a class of 20 students"]
     },
     {
       role: "Summer Undergraduate Research Fellow",
@@ -198,10 +191,10 @@ const workExperiences = {
       companylogo: require("./assets/images/purdue_logo.png"),
       date: "May 2024 – Jul 2024",
       desc: "10-week mentored research project with SCALE HBCU Radiation Hardening cohort",
-      descBullets:[
+      descBullets: [
         "Investigated electron emission mechanisms in semiconductors",
         "Authored a technical paper and poster and presented at symposium"
-        ]
+      ]
     },
     {
       role: "Computer Science Summer Institute Participant",
@@ -209,11 +202,11 @@ const workExperiences = {
       companylogo: require("./assets/images/google_logo.png"),
       date: "July 2022 – Aug 2022",
       desc: "4-week intensive summer program on HTML/CSS and JavaScript",
-      descBullets:[
+      descBullets: [
         "Configured 15 coding projects in JavaScript",
         "Applied concepts such as variables, data types, and functions",
         "Presented collaborative final project with live demo to Google engineers"
-        ]
+      ]
     }
   ]
 };
@@ -222,7 +215,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile:true, // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -256,7 +249,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -387,8 +380,7 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "My Inbox is open!",
+  subtitle: "My Inbox is open!",
   email_address: "daniazein20@gmail.com"
 };
 
