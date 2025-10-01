@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Dania Zein",
-  title: "Hi, I'm Dania Zein",
+  title: "Hi, I'm Dania!",
   subTitle:
     "I'm a senior Math and Computer Science major at the historic Tougaloo College interested in applying data science and machine learning methods to medicine, biology, and public health",
   resumeLink:
@@ -57,31 +57,31 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "C++",
-      fontAwesomeClassname: "fab fa-laptop-code"
+      fontAwesomeClassname: "fas fa-laptop-code"
     },
     {
       skillName: "R",
-      fontAwesomeClassname: "fab fa-r"
+      fontAwesomeClassname: "fas fa-r"
     },
     {
       skillName: "MATLAB",
-      fontAwesomeClassname: "fab fa-file-plus-minus"
+      fontAwesomeClassname: "fa-file-plus-minus"
     },
     {
       skillName: "Wolfram Language",
-      fontAwesomeClassname: "fab fa-abacus"
+      fontAwesomeClassname: "fa-abacus"
     },
     {
       skillName: "XCode",
-      fontAwesomeClassname: "fab fa-gear-code"
+      fontAwesomeClassname: "fa-gear-code"
     },
     {
       skillName: "Git/Github",
-      fontAwesomeClassname: "fab fa-code-pull-request"
+      fontAwesomeClassname: "fa-code-pull-request"
     },
     {
       skillName: "Linux",
-      fontAwesomeClassname: "fab fa-square-terminal"
+      fontAwesomeClassname: "fa-square-terminal"
     },
     {
       skillName: "SQL",
@@ -106,14 +106,14 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Tougaloo College",
-      logo: require("./assets/images/tc_logo.png"),
+      logo: require("./assets/images/tc_logo.jpg"),
       subHeader:
         "Bachelor of Science: Computer Science and Mathematics, Minor: Data Science",
       duration: "Expected May 2026",
       desc: "Presidential Academic Scholar",
       descBullets: [
         "Relevant Coursework: Biostatistics, Calculus IV, Numerical Analysis, Introduction to Machine Learning",
-        "Alpha Lambda Delta Scholar, Tougaloo STEM-X Club Member, Tougaloo Cybersecurity Clinic Intern"
+        "Alpha Lambda Delta Scholar, Tougaloo Cybersecurity Clinic Intern, Tougaloo STEM-X Club Member"
       ]
     }
   ]
@@ -148,7 +148,7 @@ const workExperiences = {
     {
       role: "Undergraduate Scholar",
       company: "Jackson Heart Study",
-      companylogo: require("./assets/images/jhs_logo.jpg"),
+      companylogo: require("./assets/images/jhs_logo.png"),
       date: "Jan 2023 – Present",
       desc: "Exploring cardiovascular health disparities through public health studies",
       descBullets: [
@@ -158,7 +158,7 @@ const workExperiences = {
     {
       role: "Undergraduate Research Fellow",
       company: "Tougaloo College",
-      companylogo: require("./assets/images/tc_logo.png"),
+      companylogo: require("./assets/images/tc_logo.jpg"),
       date: "Aug 2023 – Present",
       desc: "Using machine learning to analyze biomedical data on cloud-based platforms",
       descBullets: [
@@ -180,7 +180,7 @@ const workExperiences = {
     {
       role: "Teaching Assistant",
       company: "Tougaloo College",
-      companylogo: require("./assets/images/tc_logo.png"),
+      companylogo: require("./assets/images/tc_logo.jpg"),
       date: "Sep 2024 – May 2025",
       desc: "Served as a weekly Calculus I tutor across 2 classes, assisting students with coursework and exam preparation",
       descBullets: ["Graded 6 Calculus I quizzes for a class of 20 students"]
@@ -188,7 +188,7 @@ const workExperiences = {
     {
       role: "Summer Undergraduate Research Fellow",
       company: "Purdue University",
-      companylogo: require("./assets/images/purdue_logo.png"),
+      companylogo: require("./assets/images/purdue_logo.jpg"),
       date: "May 2024 – Jul 2024",
       desc: "10-week mentored research project with SCALE HBCU Radiation Hardening cohort",
       descBullets: [
@@ -215,36 +215,44 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: false, // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some of my projects:",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Patient Directory System",
+      projectDesc: "C++ program of over 400 lines implementing basic CRUD operations displaying a menu interface storing patient records as a vector of patients Structs",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Repo",
+          url: "https://github.com/dmz4484/Patient-Directory-System"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Research Lab Network Design",
+      projectDesc: "Network design using Cisco Packet Tracer supporting research PCs, student devices, and IoT equipment using 3 VLANs for traffic separation, wired and wireless connectivity, and basic security",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Repo",
+          url: "https://github.com/dmz4484/Research-Lab-Network-Design"
+        }
+      ]
+    },
+        {
+      projectName: "DDR Fitness",
+      projectDesc: "Website developed using HTML, CSS, and JavaScript with over 1,080 lines of code providing 60+ randomized workouts to users and an unlimited number of healthy recipes with Spoonacular API",
+      footerLink: [
+        {
+          name: "Visit Repo",
+          url: "https://github.com/dmz4484/CSSI_22_Project_DDRfitness"
         }
       ]
     }
@@ -256,57 +264,47 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "My conference presentations and achievements: ",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "2025 Emerging Researchers National (ERN) Conference in STEM",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Poster presentation in Computer and Data Sciences (1st Place): Uncovering Transcriptional Dynamics in COVID-19: Integrating PBMC scRNA-Seq and RNA Velocity",
+      image: require("./assets/images/ern.jpg"),
+      imageAlt: "ern",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Abstract",
+          url: "https://emerging-researchers.org/projects/411-3/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "88th & 89th Annual Mississippi Academy of Sciences (MAS) Meeting",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Top 10% of undergraduate student abstracts submitted in the Mathematics, Computer Science, and Statistics Division, Poster presentations (Honorable Mention and Best Undergraduate Poster in Division): Exploring COVID-19's Impact: Analyzing Trends in CTIS and Preprocessing COPE for Future Insights, Uncovering Transcriptional and Immune Dynamics in COVID-19 Using PBMC scRNA-Seq",
+      image: require("./assets/images/mas.jpg"),
+      imageAlt: "mas",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View 2024 Journal",
+          url: "https://msacad.org/wp-content/uploads/2024/06/vol_69_no_1-MAS-2024.pdf"
+        },
+         {
+          name: "View 2025 Journal",
+          url: "https://msacad.org/wp-content/uploads/2025/03/Vol-70_January_-No-1-2025final-7-3-10-2025-updated.pdf"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "21st & 22nd Annual Kincheloe Research Symposium",
+      subtitle: " Oral presentation (1st Place): Quality Control and Cellular Profiling of PBMCs from COVID-19 Patients and Healthy Controls Using scRNA-seq, Poster presentations (3rd Place): Transitions Between Electron Emission Mechanisms in Semiconductors, Predicting COVID-19 Cases Using Deep Neural Networks Based on Trends and Impact Survey Data.",
+      image: require("./assets/images/kinch.jpeg"),
+      imageAlt: "kinch",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
       ]
     }
   ],
